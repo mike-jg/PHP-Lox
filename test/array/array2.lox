@@ -1,0 +1,6 @@
+var a = Array();
+a.push(2);
+a.push(5);
+print a.get(0); // expect: 2
+print a.pop(); // expect: 5
+print a.length(); // expect: 1

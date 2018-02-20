@@ -1,0 +1,8 @@
+#!/usr/bin/env php
+<?php
+
+use Tool\GenerateAst;
+
+require(__DIR__ . "/../vendor/autoload.php");
+
+exit(GenerateAst::main());

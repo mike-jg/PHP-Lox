@@ -1,0 +1,20 @@
+var a = Array();
+
+a.push(1);
+a.push(2);
+a.push(3);
+a.push(4);
+
+print a.length(); // expect: 4
+
+
+print a.get(1); // expect: 2
+print a.get(2); // expect: 3
+
+
+print a.pop(); // expect: 4
+print a.pop(); // expect: 3
+
+print a.length(); // expect: 2
+
+print a; // expect: Array instance
