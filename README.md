@@ -1,6 +1,10 @@
-# README
+
+# PHP-Lox
 
 PHP implementation of the Lox language described in [Crafting Interpreters](http://craftinginterpreters.com/a-tree-walk-interpreter.html).
+
+[![Build Status](https://travis-ci.org/mike-jg/PHP-Lox.svg?branch=master)](https://travis-ci.org/mike-jg/PHP-Lox)
+
 
 ### Installing and running
 
