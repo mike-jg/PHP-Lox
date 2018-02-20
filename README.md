@@ -20,11 +20,11 @@ Run a source file:
 
 `$ ./bin/lox /path/to/some/file.lox`
 
-###Additional features
+### Additional features
 
 Below are features added beyond what the book covers.
 
-####break statement
+#### break statement
 
 ```
 for (var i = 0; i < 10; i = i + 1) {
@@ -34,7 +34,7 @@ for (var i = 0; i < 10; i = i + 1) {
  }
 ```
 
-####Array class
+#### Array class
 
 ```
 var a = Array();
@@ -46,7 +46,7 @@ print a.length(); // prints '1'
 
 ```
 
-####Input from command line via the Input class:
+#### Input from command line via the Input class:
 
 ```
 var in = Input();
