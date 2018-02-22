@@ -61,10 +61,12 @@ final class Lox
             // indicate a complete control structure
             if (($leftBraces = self::countTokens($tokens, TokenType::LEFT_BRACE)) > 0) {
                 if ($leftBraces !== self::countTokens($tokens, TokenType::RIGHT_BRACE)) {
+                    $line .= " ";
                     continue;
                 }
             } // otherwise wait for a full statement (a line ending in a semicolon)
             else if ($tokens[count($tokens) - 2]->getType() !== TokenType::SEMICOLON) {
+                $line .= " ";
                 continue;
             }
 
@@ -100,6 +102,7 @@ final class Lox
             }
 
             $line = "";
+            $output->print("\n");
         }
 
         $output->print("Bye!\n");
